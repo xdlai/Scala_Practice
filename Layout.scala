@@ -75,8 +75,3 @@ class LineElement(s:String) extends Element {
     override def width = s.length
     override def height = 1
 }
-
-val l = new LineElement("hahahha")
-val uniform = new UniformElement('x', 2, 3)
-val g = new LineElement("bbbbb")
-println(l.beside(uniform).above(g))
