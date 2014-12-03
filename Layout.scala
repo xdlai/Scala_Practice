@@ -77,3 +77,4 @@ class LineElement(s:String) extends Element {
 }
 
 println(elem(Array("abc", "def")))
+println(elem('B', 3, 5))
