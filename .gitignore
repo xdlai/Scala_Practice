@@ -1,3 +1,4 @@
 # Ignore all vim backup files.
 *~
 *.swp
+*.obj
